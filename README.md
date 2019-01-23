@@ -23,5 +23,7 @@ After inputing these parameters, the code will run and output an image of the tr
 
 ![Sample Output Table](https://github.com/blongbot/ParticleSizingSEMTEM/blob/master/csvoutput.PNG)
 
+The first column contains the particle number identifier, the second lists the filename, third is the measured area for each particle in pixels$^2$, the rest of the columns are then outputs from Feret diameter measurements. Feret gives essentially a caliper distance across the particle and therefore is a measure of the max diameter around the particle. This is useful for rough particles.
 
+Good luck with your measurements!
 
