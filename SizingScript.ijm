@@ -63,4 +63,4 @@ run("Set Measurements...", "area feret's display add redirect=None decimal=3");
 		    if (isOpen("Results")) { 
          selectWindow("Results"); 
          run("Close"); 
-    } 
+    }
