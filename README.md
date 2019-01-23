@@ -1,9 +1,11 @@
 # ParticleSizingSEMTEM
 ImageJ batch processing particle sizing script written with SEM images in mind but hopefully also works for TEM images. The script prompts the user to select an input directory where your image files a stored and an output directory to store the results. It will process all tiff image files in the input directory.
 
-To run the script in ImageJ use the Plugins > Macros > Run.. route and double click the script file (.txt or .ijm).
+To run the script in ImageJ use the Plugins > Macros > Run... route and double click the script file (.txt or .ijm).
 
 After input and output directories are selected the script then asks the user for some simple information regarding the image:
+
+![Image Info](https://github.com/blongbot/ParticleSizingSEMTEM/blob/master/Imageinfo.PNG)
 
 1. Particle circularity range (0.0-1.0):
 
@@ -20,7 +22,6 @@ Self explanatory. This is used to determine whether we are working with light pa
 After inputing these parameters, the code will run and output an image of the traced particle outlines for each analyzed tiff image along with a .csv file  containing the size data that can be opened in Excel. The size data is presented in pixel units so conversion will need to be done afterwards by the user. The .csv file contains a table with the following columns:
 
 ![Sample Output Table](https://github.com/blongbot/ParticleSizingSEMTEM/blob/master/csvoutput.PNG)
-
 
 
 
