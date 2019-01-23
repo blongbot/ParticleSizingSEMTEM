@@ -19,6 +19,8 @@ Self explanatory. This is used to determine whether we are working with light pa
 
 After inputing these parameters, the code will run and output an image of the traced particle outlines for each analyzed tiff image along with a .csv file  containing the size data that can be opened in Excel. The size data is presented in pixel units so conversion will need to be done afterwards by the user. The .csv file contains a table with the following columns:
 
+![alt text](https://raw.githubusercontent.com/username/ParticleSizingSEMTEM/images/csvoutput.PNG)
+
 
 
 
