@@ -6,7 +6,7 @@ dir2 = getDirectory("Choose Destination Directory ");
 list = getFileList(dir1);
 Dialog.create("Image Info");
 Dialog.addNumber("Particle circularity range (0.0-1.0):", 0.2);
-Dialog.addNumber("Approximate lower limit particle size (pix):", 20);
+Dialog.addNumber("Approximate lower limit particle size (pix^2):", 20);
 Dialog.addChoice("SEM image or TEM image?", newArray("SEM", "TEM"));
 Dialog.show();
 type = Dialog.getChoice();
