@@ -1,5 +1,7 @@
 # ParticleSizingSEMTEM Instructions
-ImageJ batch processing particle sizing script written with SEM images in mind but hopefully also works for TEM images. The script prompts the user to select an input directory where your image files a stored and an output directory to store the results. It will process all tiff image files in the input directory.
+Start by downloading the main script: "SizingScript.ijm" or copying and pasting it into a text editor and save locally as either .txt or .ijm. 
+
+This is an ImageJ batch processing particle sizing script written with SEM images in mind but hopefully also works for TEM images. The script prompts the user to select an input directory where your image files a stored and an output directory to store the results. It will process all tiff image files in the input directory.
 
 To run the script in ImageJ use the Plugins > Macros > Run... route and double click the script file (.txt or .ijm).
 
