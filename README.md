@@ -3,7 +3,7 @@ It should be noted that this algorithm will not work for all kinds of images as 
 
 An example of a good image which the algorithm has managed to segment and analyse fairly well is presented here:
 
-![SEM example](https://github.com/blongbot/ParticleSizingSEMTEM/blob/master/example.PNG)
+![SEM example](https://github.com/blongbot/ParticleSizingSEMTEM/blob/master/example.png)
 
 # ParticleSizingSEMTEM Instructions
 Start by downloading the main script: "SizingScript.ijm" or copying and pasting it into a text editor and save locally as either .txt or .ijm. 
